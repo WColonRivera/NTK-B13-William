@@ -34,6 +34,7 @@ public class Exercice3 extends Hooks2 {
 		WebElement lastName = driver.findElement(By.id("LastName"));
 		lastName.sendKeys("Colon");
 		Thread.sleep(1000);
+		
 		/**
 		 * 
 		 * There is no date of birth section. DevTeam needs to add this to the program
